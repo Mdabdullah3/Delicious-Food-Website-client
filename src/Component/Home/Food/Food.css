@@ -1,0 +1,68 @@
+
+.design {
+    transition: 0.3s linear;
+}
+.about-back{
+    background: url(../../../Assets//Home/about-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.discount{
+    background: url(../../../Assets/Home/Untitled-1.png);
+    background-repeat: no-repeat;
+}
+.business-bg{
+    background: url(../../../Assets/Home/bg-1.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.review-bg{
+    background: url(../../../Assets/Home/element2.2.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.reviews-background{
+    background: url(../../../Assets//Home/bg-4.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.service-bg{
+    background: url(../../../Assets/Home/bg5.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.login-background{
+    background: url(../../../Assets/Home/bannerbackground.png);
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 100px;
+}
+.Food-back{
+    background: url(../../../Assets/Home/bg.png);
+}
+@media screen and (max-width:688px) {
+    .about-back{
+        background: none;
+    }
+}
+
+:root{
+    --swiper-theme-color: #41AA44;
+}
+.swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,30px));
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,4px));
+    display: inline-block;
+    background: #41AA44;
+    border: 10px;
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, .2);
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: var(--swiper-pagination-color,var(--swiper-theme-color));
+}
+.swiper-pagination-bullet{
+    border-radius: 2px;
+}
