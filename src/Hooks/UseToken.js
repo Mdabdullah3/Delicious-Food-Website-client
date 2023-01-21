@@ -34,5 +34,4 @@ const UseToken = (user) => {
     }, [user]);
     return [token];
 }
-
 export default UseToken;
